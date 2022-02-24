@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+*{margin: 0px;
+padding: 0px;}
+:root{
+    --sh: "Nova Mono', monospace"
+}
+body{
+    background-color: #6a9bde;
+}
+.container{
+    max-width: 352px;
+    margin: auto;
+  
+}
+/* Umumu CSS */
+#general{
+    width: 440px;
+border-radius: 5px;
+filter: drop-shadow(0px 8px 10px rgba(0,1,1,0.26));
+background-color: #f1f7fc;
+padding-bottom: 35px;
+}
+#general div h1{
+    font:bold 24px  var(--sh) ;
+line-height: 28px;
+color: #4f4f4f;
+padding-top: 35px;
+padding-bottom: 32px;
+}
+/* label css */
+.m{
+font: bold 14px var(--sh);
+letter-spacing: 2px;
+line-height: 28px;
+color: #4f4f4f;
+}
+
+::placeholder{
+font-size: 18px;
+color: #555555;
+font-weight: 300px;
+font-family: var(--sh);
+padding-left: 20px ;
+padding-top: 21px;
+padding-bottom: 20px;
+}
+form input{
+    width: 352px;
+    padding-top: 20px;
+padding-bottom: 20px;
+    border-radius: 3px;
+background-color: rgba(255,255,255,0.7019607843137254);
+border: 1px solid #d8d8d8;
+}
+
+.check{
+    display: inline-block;
+    width: 21px;
+height: 21px;
+border-radius: 6px;
+background-color: #04a9f4;
+margin-top: 12px;
+}
+.rem{
+    font:bold 14px var(--sh) ;
+    display: inline-block;
+line-height: 28px;
+color: #8b8b8b;
+margin-top: 15px;
+}
+.forgot{
+    font:bold 14px var(--sh) ;
+    text-decoration: none;
+line-height: 28px;
+color: #04a9f4;
+margin-left: 195px;
+}
+form button{
+    font:bold 22px var(--sh) ;
+line-height: 28px;
+color: #ffffff;
+text-align: center;
+filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.2));
+background-color: #0796d7;
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+margin-top: 25px;
+}
+
+.fb,.tw{ 
+width: 170px;
+padding-top: 13px;
+padding-bottom: 13px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #ffffff;
+text-align: center;
+font:bold 14px var(--sh) ;
+
+}
+.fb{
+    margin-right: 8px;
+    background-color: #3161a1;
+}
+.tw{
+    background-color: #00a9f3
+}
+
+#mail{
+    margin-bottom: 27px;
+    margin-top: 10px;
+}
+#pasw{margin-top: 12px;}

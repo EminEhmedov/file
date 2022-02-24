@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+body{background-color:#b49a9d;}
+:root{
+    --srift:'Roboto Serif', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#general{
+    max-width: 600px;
+    border-radius: 3px;
+filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.4));
+background-color: #b3989a;
+padding-bottom: 50px;
+}
+#container{
+    max-width: 440px;
+    margin: auto;
+
+}
+#container h1{
+    font-size: 36px;
+color: #ffffff;
+font-weight: bold;
+font-family:  var(--srift);
+text-align: center;
+filter: drop-shadow(0px 1px 1px #171019);
+padding-top: 55px;
+padding-bottom: 40px;
+}
+#container input{
+    width: 440px;
+
+border-radius: 4px;
+filter: drop-shadow(0px 2px 0px rgba(255,255,255,0.4));
+background-color: #b79c9d;
+padding-top: 25px;
+padding-bottom: 20px;
+margin-bottom: 38px;
+
+}
+ ::placeholder{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: var(--srift);
+    filter: drop-shadow(0px 1px 0.5px rgba(0,0,0,0.6));
+    padding-left: 30px;
+    
+ }
+ .sign{width: 440px;
+    height: 74px;
+    border-radius: 4px;
+    filter: drop-shadow(0px 1px 1.5px rgba(0,0,0,0.3));
+    background-image: linear-gradient(0deg, #3c9d35 0%, #5abe50 100%);
+    border: 1px solid rgba(13,13,13,0.7); font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: var(--srift);
+    text-align: center;
+    filter: drop-shadow(0px 1px 1px #171019);}
